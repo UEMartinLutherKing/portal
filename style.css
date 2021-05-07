@@ -195,7 +195,7 @@
 /*Botones*/
 .btn-whatsapp {
   height: 45px;
-  width: 150px;
+  width: 50px;
   background-color: #00e676;
   cursor: pointer;
   color: #fff;
@@ -221,6 +221,11 @@ padding: auto;
   color: #00e676;
   outline: none;
 }
+@media screen and (max-width: 376px) {
+    .btn-whatsapp {
+      width: 500%;      
+    }
+  }
 
 /*Mision y Vision*/
 .mv-content {
