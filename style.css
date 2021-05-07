@@ -206,8 +206,7 @@
   transition: 0.3s;
   padding-top: 10px;
   padding-left: auto;
-  margin: auto;
-  display: flex;  
+  margin: auto; 
 }
 
 .btn-whatsapp h5{
