@@ -194,8 +194,8 @@
 }
 /*Botones*/
 .btn-whatsapp {
-  height: 40px;
-  width: 150px;
+  height: 45px;
+  width: 300px;
   background-color: #00e676;
   cursor: pointer;
   color: #fff;
@@ -204,9 +204,15 @@
   -webkit-border-radius: 54px 54px 54px 54px;
   border: 0px solid #000000;
   transition: 0.3s;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 10px;
+  padding-left: auto;
+  margin: auto;
+display: flex;  
+}
+
+.btn-whatsapp h5{
+font-size: 20px;
+padding: auto;
 }
 
 .btn-whatsapp:hover {
