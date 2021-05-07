@@ -195,7 +195,7 @@
 /*Botones*/
 .btn-whatsapp {
   height: 45px;
-  width: 50px;
+  width: 200px;
   background-color: #00e676;
   cursor: pointer;
   color: #fff;
@@ -222,7 +222,7 @@ padding: auto;
 }
 @media screen and (max-width: 376px) {
     .btn-whatsapp {
-      width: 500%;      
+      width: 300px;      
     }
   }
 
