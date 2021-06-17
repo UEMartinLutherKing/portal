@@ -56,6 +56,20 @@
   }
 }
 
+body::-webkit-scrollbar{
+  width: 7px;
+  height: 70px;  
+}
+
+body::-webkit-scrollbar-thumb{
+  background: var(--primary-color);  
+  border-radius: 13px;
+}
+
+body::-webkit-scrollbar-track-piece{
+  background: transparent;
+}
+
 /* block-$ */
 .block-effect {
   font-size: calc(8px + 6vw);
